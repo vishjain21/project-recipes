@@ -4,12 +4,35 @@ body {
 
 h1 {
     font-size: 44px;
-    margin-left: 50px;
-    color: gold;
+    margin: 24px;
+    padding: 8px;
+    background-color: #cd8417;
+    color: #050505;
 }
 
-ul {
-    color: gold;
-    margin-left: 30px;
+#menu {
+    color: #cd8417;
+    margin: 0 24px;
     font-size: 22px;
+}
+
+.items {
+    margin: 24px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #faf3cd;
+}
+
+img {
+    box-sizing: border-box;
+    width: 280px;
+    height: auto;
+    border: 8px solid #8c0000;
+    padding: 8px;
+}
+
+.item-name {
+    width: 280px;
+    text-align: center;
+    background-color: #faf3cd;
+    font-size: 32px;
 }
