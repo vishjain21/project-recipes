@@ -1,2 +1,2 @@
 # project-recipes
-This is a practice prject, for HTML
+This is a practice project, for HTML
