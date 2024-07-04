@@ -1,38 +1,43 @@
 body {
-    background-color: black;
+    background-color: #faf3cd;
+    padding: 24px;
 }
 
-h1 {
-    font-size: 44px;
-    margin: 24px;
+#n-bar {
     padding: 8px;
     background-color: #cd8417;
     color: #050505;
 }
 
+#n-title {
+    display: inline;
+    font-size: 44px;
+    margin: 8px;
+}
+
 #menu {
-    color: #cd8417;
-    margin: 0 24px;
-    font-size: 22px;
+    margin-top: 8px;
+    padding: 16px;
 }
 
 .items {
-    margin: 24px;
+    margin-bottom: 24px;
     padding-bottom: 8px;
-    border-bottom: 1px solid #faf3cd;
+    border-bottom: 4px solid #050505;
 }
 
 img {
     box-sizing: border-box;
-    width: 280px;
+    width: 250px;
     height: auto;
     border: 8px solid #8c0000;
     padding: 8px;
 }
 
 .item-name {
-    width: 280px;
+    width: 250px;
     text-align: center;
-    background-color: #faf3cd;
+    background-color: #050505;
+    color: #ffc917;
     font-size: 32px;
 }
