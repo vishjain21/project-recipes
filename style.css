@@ -45,7 +45,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 24px 36px;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
@@ -63,7 +63,7 @@ ul {
 
 img {
     box-sizing: border-box;
-    width: 299px;
+    width: 280px;
     height: auto;
     border: 8px solid #8c0000;
     padding: 8px;
@@ -75,7 +75,7 @@ img:hover {
 }
 
 .item-name {
-    width: 299px;
+    width: 280px;
     text-align: center;
     background-color: #050505;
     color: #ffc917;
