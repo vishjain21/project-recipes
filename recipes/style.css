@@ -1,38 +1,63 @@
 body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     background-color: #faf3cd;
-    padding: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
-#n-bar {
-    padding: 8px;
+/* HEADER */
+.header {
+    display: flex;
+    height: 72px;
+    flex-shrink: 0;
+    padding: 8px 48px;
     background-color: #cd8417;
+        justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
     color: #050505;
+    margin: 0;
+    padding: 0;
 }
 
-#n-title {
-    display: inline;
+.title {
     font-size: 44px;
-    margin: 8px;
+    font-weight: bold;
+    margin: 0 8px;
 }
 
-#sep {
-    margin: 8px;
-    font-size: 44px;
+.links {
+    flex-shrink: 0;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
 }
 
-.n-link {
-    margin: 8px;
-    font-size: 22px;
-    color: #050505;
+/* CONTENT (Recipe) */
+.content {
+    flex: 1;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
-#content {
-    margin-top: 8px;
-    padding: 16px;
+/* Introduction */
+.intro {
+    display: flex;
+    padding: 0 16px 8px;
+    gap: 32px;
+    align-items: center;
+    border-bottom: 1px solid #000;
 }
 
 h1 {
-    width: 400px;
+    width: 320px;
     margin: 0 auto 16px;
     background-color: #050505;
     color: #ffc917;
@@ -41,23 +66,49 @@ h1 {
 }
 
 #recipeimage {
-    display: block;
-    margin: 16px auto;
     box-sizing: border-box;
-    width: 400px;
+    width: 320px;
     height: auto;
     border: 8px solid #8c0000;
     padding: 8px;
 }
 
-.text {
-    margin: 24px auto;
-    font-size: 22px;
+p {
     color: #050505;
+    font-size: 32px;
+    text-align: center;
 }
 
-.subhead {
-    margin: 24px auto;
+/* Ingredients ans Steps */
+.sub-sec {
+    padding: 0 16px 8px;
+    border-bottom: 1px solid #000;
+}
+
+h2 {
     font-size: 32px;
-    color: #8c0000;
+    color: #050505;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 24px;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #050505;
+    height: 72px;
+    padding: 8px 48px;
+    gap: 16px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: grey;
+    font-size: 24px;
 }
